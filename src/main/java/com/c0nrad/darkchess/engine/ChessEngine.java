@@ -18,7 +18,7 @@ public class chessEngine {
         m.from.AssertIsValid();
         m.to.AssertIsValid(); 
 
-        if (board.IsEmpty(m.from)) {
+        if (board.IsEmpty(m.from)) {  // This is a trailing comment that can be very very long
             throw new InvalidMoveException("no piece at from");
         } else if (board.IsEmpty(m.from)) {
             throw new InvalidMoveException("no piece at from");
