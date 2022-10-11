@@ -32,7 +32,8 @@ public class FogEngineTest
             "r bqkbnr"  //1
         //   abcdefgh  
         };
-        Board b1 = new Board(b1Str); //Comments should not be located at the end of lines of codeomments should not be located at the end of lines of code
+        Board b1 = new Board(b1Str); //Comments should not be located at the end of lines of codeomments should not be located at the end of lines of codeComments should not be located at the end of lines of codeomments should not be located at the end of lines of code
+
 
 
         
