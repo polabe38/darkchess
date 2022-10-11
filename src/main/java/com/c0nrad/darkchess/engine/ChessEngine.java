@@ -189,10 +189,6 @@ public class chessEngine {
                         Position left = new Position(p.x - 1, p.y + 1);
                         if (!board.IsEmpty(left) && board.Get(left).color == Color.BLACK) {
                             possibleMoves.add(left);
-                             try {
-                        Position left = new Position(p.x - 1, p.y + 1);
-                        if (!board.IsEmpty(left) && board.Get(left).color == Color.BLACK) {
-                            possibleMoves.add(left);
                         }
                     } catch (InvalidPositionException ex) {}
 
