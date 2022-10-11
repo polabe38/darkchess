@@ -29,7 +29,7 @@ public class chessEngine {
         }
 
         if (!board.IsEmpty(m.to) && board.Get(m.to).color == color) {
-            throw new InvalidMoveException("can't remove o7n piece"); //Este es un comentario final que puede ser muy, muy largo  Este es un comentario final que puede ser muy, muy largo  Este es un comentario final que puede ser muy, muy largo
+            throw new InvalidMoveException("can't remove o7n piece"); 
         }
 
         ArrayList<Position> possibleMoves = GetPossibleMoves(board, m.from);
@@ -39,7 +39,7 @@ public class chessEngine {
             }    
         }
 
-        throw new InvalidMoveException("piece can not move there"); //Este es un comentario final que puede ser muy, muy largo  Este es un comentario final que puede ser muy, muy largo  Este es un comentario final que puede ser muy, muy largo
+        throw new InvalidMoveException("piece can not move there"); 
     }
 
     public static ArrayList<Position> GetPositionsInDirection(Board board, Position start, int dx, int dy) throws InvalidPositionException {
