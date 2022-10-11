@@ -14,7 +14,7 @@ import com.c0nrad.darkchess.models.Piece;
 
 public class chessEngine {
 
-    public static void AssertIsValidMove(Board board, Move m, Color color, int x)  throws InvalidPositionException, InvalidMoveException{
+    public static void AssertIsValidMove(Board board, Move m, Color color, int x, int x)  throws InvalidPositionException, InvalidMoveException{
         m.from.AssertIsValid();
         m.to.AssertIsValid();
 
