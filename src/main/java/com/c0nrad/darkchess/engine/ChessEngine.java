@@ -20,6 +20,8 @@ public class chessEngine {
 
         if (board.IsEmpty(m.from)) {
             throw new InvalidMoveException("no piece at from");
+        } else if (board.IsEmpty(m.from)) {
+            throw new InvalidMoveException("no piece at from");
         }
 
         if (board.Get(m.from).color != color) {
