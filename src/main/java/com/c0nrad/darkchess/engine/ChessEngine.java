@@ -10,7 +10,7 @@ import com.c0nrad.darkchess.models.Color;
 import com.c0nrad.darkchess.models.Move;
 import com.c0nrad.darkchess.models.Position;
 import com.c0nrad.darkchess.models.PieceType;
-import com.c0nrad.darkchess.models.Piece; //Este es un comentario final que puede ser muy, muy largo  Este es un comentario final que puede ser muy, muy largo  Este es un comentario final que puede ser muy, muy largo
+import com.c0nrad.darkchess.models.Piece; 
 
 public class chessEngine {
 
@@ -39,7 +39,7 @@ public class chessEngine {
             }    
         }
 
-        throw new InvalidMoveException("piece can not move there");
+        throw new InvalidMoveException("piece can not move there"); //Este es un comentario final que puede ser muy, muy largo  Este es un comentario final que puede ser muy, muy largo  Este es un comentario final que puede ser muy, muy largo
     }
 
     public static ArrayList<Position> GetPositionsInDirection(Board board, Position start, int dx, int dy) throws InvalidPositionException {
