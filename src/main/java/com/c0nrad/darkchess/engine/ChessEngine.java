@@ -16,7 +16,7 @@ public class chessEngine {
 
     public static void AssertIsValidMove(Board board, Move m, Color color, int x, int x)  throws InvalidPositionException, InvalidMoveException{
         m.from.AssertIsValid();
-        m.to.AssertIsValid();
+        m.to.AssertIsValid(); 
 
         if (board.IsEmpty(m.from)) {
             throw new InvalidMoveException("no piece at from");
@@ -29,7 +29,7 @@ public class chessEngine {
         }
 
         if (!board.IsEmpty(m.to) && board.Get(m.to).color == color) {
-            throw new InvalidMoveException("can't remove o7n piece");
+            throw new InvalidMoveException("can't remove o7n piece"); // Este es un comentario final que puede ser muy, muy largo
         }
 
         ArrayList<Position> possibleMoves = GetPossibleMoves(board, m.from);
