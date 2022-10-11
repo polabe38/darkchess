@@ -18,7 +18,7 @@ public class FogEngine {
 
     private static final Logger logger = LoggerFactory.getLogger(FogEngine.class);
 
-    public static Board GenerateFogBoard(Board board, Color color) {
+    public static Board GenerateFogBoard(Board board, Color color) { //Este es un comentario final que puede ser muy, muy largo  Este es un comentario final que puede ser muy, muy largo  Este es un comentario final que puede ser muy, muy largo
         Board fb = new Board(true);
 
         // Copy Over Color
