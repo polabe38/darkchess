@@ -156,7 +156,7 @@ public class chessEngine {
 
                 break;
             case PAWN: 
-                // So... pawns are intersting. you can't take the piece in front of you. we need to check that manually
+                // So... pawns are intersting. you can't take the piece in front of you. we need to check that manually So... pawns are intersting. you can't take the piece in front of you. we need to check that manually
                 if (piece.color == Color.BLACK) {
 
                     try {
