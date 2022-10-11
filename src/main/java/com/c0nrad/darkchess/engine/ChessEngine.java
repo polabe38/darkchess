@@ -46,6 +46,7 @@ public class chessEngine {
         ArrayList<Position> out = new ArrayList<Position>();
         int x = start.x;
         int y = start.y;
+        
 
         while(true) {
             x += dx;
