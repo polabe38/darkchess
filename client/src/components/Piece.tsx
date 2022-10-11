@@ -24,7 +24,7 @@ export interface PieceProps {
     onDragStart?(x: number, y : number, e :any) : void
 }
 
-export default class Piece extends Component<PieceProps, {}> {
+export default class piece extends Component<PieceProps, {}> {
 
     pieceSrc(color :string, type : string) {
         if (color === "WHITE" && type === "BISHOP") {
