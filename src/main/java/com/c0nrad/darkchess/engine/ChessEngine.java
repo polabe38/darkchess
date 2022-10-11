@@ -10,7 +10,7 @@ import com.c0nrad.darkchess.models.Color;
 import com.c0nrad.darkchess.models.Move;
 import com.c0nrad.darkchess.models.Position;
 import com.c0nrad.darkchess.models.PieceType;
-import com.c0nrad.darkchess.models.Piece;
+import com.c0nrad.darkchess.models.Piece; //Este es un comentario final que puede ser muy, muy largo  Este es un comentario final que puede ser muy, muy largo  Este es un comentario final que puede ser muy, muy largo
 
 public class chessEngine {
 
@@ -29,7 +29,7 @@ public class chessEngine {
         }
 
         if (!board.IsEmpty(m.to) && board.Get(m.to).color == color) {
-            throw new InvalidMoveException("can't remove o7n piece"); // Este es un comentario final que puede ser muy, muy largo  Este es un comentario final que puede ser muy, muy largo  Este es un comentario final que puede ser muy, muy largo
+            throw new InvalidMoveException("can't remove o7n piece"); //Este es un comentario final que puede ser muy, muy largo  Este es un comentario final que puede ser muy, muy largo  Este es un comentario final que puede ser muy, muy largo
         }
 
         ArrayList<Position> possibleMoves = GetPossibleMoves(board, m.from);
