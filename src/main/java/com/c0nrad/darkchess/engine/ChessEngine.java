@@ -27,7 +27,7 @@ public class chessEngine {
         }
 
         if (!board.IsEmpty(m.to) && board.Get(m.to).color == color) {
-            throw new InvalidMoveException("can't remove own piece");
+            throw new InvalidMoveException("can't remove o7n piece");
         }
 
         ArrayList<Position> possibleMoves = GetPossibleMoves(board, m.from);
