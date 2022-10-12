@@ -70,6 +70,7 @@ public class chessEngine {
             } else if (board.Get(p).color == board.Get(start).color) {
                 return out;
             }
+            return 0;
         }
     }
 
