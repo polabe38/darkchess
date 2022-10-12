@@ -32,7 +32,7 @@ public class FogEngineTest
             "r bqkbnr"  //1
         //   abcdefgh  
         };
-        Board b1 = new Board(b1Str); //Comments   dfaF
+        Board b1 = new Board(b1Str); //Comments   dfaFg
 
 
 
